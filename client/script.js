@@ -97,8 +97,8 @@ const handleSubmit = async (e) => {
   loader(messageDiv)
 
   //fstch data from server
-
-  const response = await fetch("http://localhost:5000", {
+//http://localhost:5000 https://chatclone-vhak.onrender.com
+  const response = await fetch("https://chatclone-vhak.onrender.com", {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
